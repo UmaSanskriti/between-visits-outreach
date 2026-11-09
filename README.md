@@ -1,4 +1,4 @@
-# Between Visits · calling-agent infra (v0)
+# Between Visits Outreach
 
 Infra for the automated discovery-outreach loop described in
 [`AB calling agent infra_ requirements specification.md`](AB%20calling%20agent%20infra_%20requirements%20specification.md):
@@ -12,7 +12,7 @@ LOCKED opening and close. Every doctor in `seeds/` is fictional.
 
 | | |
 |---|---|
-| **Ops dashboard** | https://umasanskriti.github.io/between-visits-workflow/ |
+| **Ops dashboard** | https://umasanskriti.github.io/between-visits-outreach/ |
 | **Scope of v0** | [`V0_SCOPE.md`](V0_SCOPE.md): what is real, what is mocked, what is deferred |
 | **Run it on GitHub** | Actions → *Dry-run pipeline* → *Run workflow* |
 | **Tests** | `pytest`: acceptance criteria AC-1..AC-10 plus the connector test plan |

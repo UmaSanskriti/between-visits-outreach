@@ -4,8 +4,8 @@
 (function () {
   "use strict";
 
-  const REPO = "https://github.com/UmaSanskriti/between-visits-workflow";
-  const API_RUNS = "https://api.github.com/repos/UmaSanskriti/between-visits-workflow/actions/workflows/pipeline.yml/runs?per_page=1";
+  const REPO = "https://github.com/UmaSanskriti/between-visits-outreach";
+  const API_RUNS = "https://api.github.com/repos/UmaSanskriti/between-visits-outreach/actions/workflows/pipeline.yml/runs?per_page=1";
   const FILES = ["run", "summary", "contacts", "call_attempts", "email_attempts", "enrichments", "scripts", "transcripts", "interviews", "gate_decisions", "errors", "dlq", "alerts", "runs", "audit_log"];
   const ICON = { good: "✓", warning: "!", serious: "▲", critical: "✕", neutral: "·" };
   const TZ = "America/New_York";

@@ -22,7 +22,7 @@ from ..clock import Clock, iso
 from ..models import Contact, Enrichment
 from ..store import Store
 
-USER_AGENT = "between-visits-infra/0.1 (+https://github.com/UmaSanskriti/between-visits-workflow)"
+USER_AGENT = "between-visits-infra/0.1 (+https://github.com/UmaSanskriti/between-visits-outreach)"
 PAGE_HINTS = (
     "about",
     "services",
